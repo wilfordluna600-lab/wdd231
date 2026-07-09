@@ -1,3 +1,5 @@
+/* colors: navy and beige #F4EBD0 */
+
 * {
     font-family: "Helvetica", "Arial", sans-serif;
     box-sizing: border-box;
@@ -47,4 +49,30 @@ header span {
 
 .navigation.show {
     display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: navy;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation li.current {
+    background-color: #eee;
+}
+
+.navigation a:hover {
+    background-color: #F4EBD0;
+}
+
+h1 {
+    margin-left: 10px;
 }
