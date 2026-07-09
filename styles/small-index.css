@@ -40,3 +40,11 @@ header span {
 .hamburger.show::before {
     content: "\00D7";
 }
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
