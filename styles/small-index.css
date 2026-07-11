@@ -93,7 +93,7 @@ main .photo img {
 }
 
 footer {
-    background-color: #eee;
+    background-color: #F4EBD0;
     padding: 1rem 10px;
     text-align: center;
 }
@@ -122,3 +122,11 @@ footer {
 .social a:hover {
     background-color: #ddd;
 }
+
+h2 {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
