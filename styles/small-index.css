@@ -78,11 +78,18 @@ h1 {
     color: navy;
 }
 
-main section img {
+main .about {
+    text-align: center;
+}
+
+main .photo {
+    text-align: center;
+}
+
+main .photo img {
     width: 280px;
     height: auto;
     padding: 1rem auto;
-    text-align: center;
 }
 
 footer {
