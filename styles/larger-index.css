@@ -28,4 +28,16 @@
     .navigation a {
         border: none;
     }
+
+    .main-one {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .about {
+        grid-column: 1 / span 2;
+    }
+
+    .photo {
+        grid-column: 3 / span 1;
+    }
 }
