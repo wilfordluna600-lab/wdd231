@@ -82,6 +82,7 @@ main section img {
     width: 280px;
     height: auto;
     padding: 1rem auto;
+    text-align: center;
 }
 
 footer {
