@@ -31,7 +31,7 @@ header span {
     border: none;
     color: #3D405B;
     cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Helvetica", "Arial", sans-serif;
 }
 
 .hamburger::before {
@@ -76,6 +76,12 @@ header span {
 h1 {
     margin-left: 1rem 10px;
     color: navy;
+}
+
+main section img {
+    width: 280px;
+    height: auto;
+    padding: 1rem auto;
 }
 
 footer {
