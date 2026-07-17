@@ -1,8 +1,8 @@
 async function getMembersData() {
     const response = await fetch("data/members.json");
-    const members = await response.json();
+    const data = await response.json();
     
-    console.log(members);
+    console.table(data.members);
 }
 
 getMembersData();
