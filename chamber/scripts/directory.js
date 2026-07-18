@@ -17,10 +17,14 @@ const displayMembers = (members) => {
 
         let businessName = document.createElement('h3');
         let logo = document.createElement('img');
-        let email = document.createElement('p');
+        let address = document.createElement('p');
         let phone = document.createElement('p');
-        let url = document.createElement('p');
+        let website = document.createElement('p');
 
-        
+        businessName.textContent = `${member.name}`;
+        address.textContent = `${member.address}`;
+        phone.textContent = `${member.phone}`;
+        website.textContent = `${member.website}`;
+
     });
 }
