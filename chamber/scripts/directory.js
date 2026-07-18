@@ -26,5 +26,11 @@ const displayMembers = (members) => {
         phone.textContent = `${member.phone}`;
         website.textContent = `${member.website}`;
 
+        card.appendChild(businessName);
+        card.appendChild(address);
+        card.appendChild(phone);
+        card.appendChild(website);
+
+        cards.appendChild(card);
     });
 }
