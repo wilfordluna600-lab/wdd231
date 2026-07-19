@@ -38,6 +38,7 @@ const displayMembers = (members) => {
         website.textContent = `${member.website}`;
 
         card.appendChild(businessName);
+        card.appendChild(logo);
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(website);
