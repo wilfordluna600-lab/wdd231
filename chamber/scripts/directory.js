@@ -29,10 +29,6 @@ const displayMembers = (members) => {
         logo.setAttribute('width', '80');
         logo.setAttribute('height', '80');
 
-
-
-
-
         address.textContent = `${member.address}`;
         phone.textContent = `${member.phone}`;
         website.textContent = `${member.website}`;
