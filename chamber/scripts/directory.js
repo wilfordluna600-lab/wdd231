@@ -22,6 +22,17 @@ const displayMembers = (members) => {
         let website = document.createElement('p');
 
         businessName.textContent = `${member.name}`;
+
+        logo.setAttribute('src', member.image);
+        logo.setAttribute('alt', `${member.name}`);
+        logo.setAttribute('loading', 'lazy');
+        logo.setAttribute('width', '80');
+        logo.setAttribute('height', '80');
+
+
+
+
+
         address.textContent = `${member.address}`;
         phone.textContent = `${member.phone}`;
         website.textContent = `${member.website}`;

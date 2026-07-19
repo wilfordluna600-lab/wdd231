@@ -5,7 +5,7 @@
       "address": "Av. Los Viñedos 245, Ica, Perú",
       "phone": "+51 956 123 401",
       "website": "https://www.soldeldesierto.com",
-      "image": "sol-del-desierto.webp",
+      "image": "../images/sun.svg",
       "membership": 3,
       "description": "Software development and IT consulting for local businesses."
     },
@@ -14,7 +14,7 @@
       "address": "Calle Las Palmeras 158, Ica, Perú",
       "phone": "+51 956 123 402",
       "website": "https://www.oasismarket.pe",
-      "image": "oasis-market.webp",
+      "image": "../images/shop.svg",
       "membership": 2,
       "description": "A shopping center featuring local products, groceries, and artisan goods."
     },
@@ -23,7 +23,7 @@
       "address": "Av. Huacachina 512, Ica, Perú",
       "phone": "+51 956 123 403",
       "website": "https://www.vinadoradatours.pe",
-      "image": "vina-dorada-tours.webp",
+      "image": "../images/tree.svg",
       "membership": 3,
       "description": "Guided tours to vineyards, Huacachina, and nearby attractions."
     },
@@ -32,7 +32,7 @@
       "address": "Jr. Agricultura 88, Ica, Perú",
       "phone": "+51 956 123 404",
       "website": "https://www.andesfresh.pe",
-      "image": "andes-fresh.webp",
+      "image": "../images/snow2.svg",
       "membership": 1,
       "description": "Supplier of fresh fruits and vegetables for local markets."
     },
@@ -41,7 +41,7 @@
       "address": "Av. San Martín 900, Ica, Perú",
       "phone": "+51 956 123 405",
       "website": "https://www.costaverdeconstructora.pe",
-      "image": "costa-verde.webp",
+      "image": "../images/buildings.svg",
       "membership": 2,
       "description": "Residential and commercial construction services."
     },
@@ -50,7 +50,7 @@
       "address": "Calle Libertad 321, Ica, Perú",
       "phone": "+51 956 123 406",
       "website": "https://www.pacificlearning.edu.pe",
-      "image": "pacific-learning.webp",
+      "image": "../images/journal-bookmark.svg",
       "membership": 1,
       "description": "Professional training and language courses for adults."
     },
@@ -59,7 +59,7 @@
       "address": "Av. Los Médanos 74, Ica, Perú",
       "phone": "+51 956 123 407",
       "website": "https://www.huacachinaadventure.pe",
-      "image": "huacachina-adventure.webp",
+      "image": "../images/water.svg",
       "membership": 3,
       "description": "Outdoor equipment rental and adventure sports accessories."
     }
