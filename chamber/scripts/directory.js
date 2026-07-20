@@ -23,7 +23,7 @@ const displayMembers = (members) => {
 
         businessName.textContent = `${member.name}`;
 
-        logo.setAttribute('src', member.image);
+        logo.setAttribute('src', `${member.image}`);
         logo.setAttribute('alt', `${member.name}`);
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '80');
