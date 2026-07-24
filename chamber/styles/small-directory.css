@@ -79,6 +79,16 @@ header span {
     height: auto;
 }
 
+.button-space {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: navy;
+    color: white;
+}
+
 .card {
     border: 1px solid #5d6f67;
     background-color: #f6f0da;
