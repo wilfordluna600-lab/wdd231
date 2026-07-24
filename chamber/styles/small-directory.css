@@ -73,6 +73,12 @@ header span {
     background-color: #F4EBD0;
 }
 
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
 footer {
     background-color: #F4EBD0;
     padding: 1rem 10px;
