@@ -7,7 +7,7 @@ const myKey = "2fdc2d4b07b9aaaa089c967e73c9bb77"
 const myLat = "49.7503"
 const myLong = "6.6384"
 
-const myURL = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+const myURL = `https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=imperial`
 
 
 // const currentTemp = document.querySelector('#current-temp');
@@ -36,7 +36,7 @@ function displayResults(data) {
   myTown.innerHTML = data.name
   myDescription.innerHTML = data.weather[0].description
   myTemperature.innerHTML = `${data.main.temp}&deg;F`
-  const iconsrc = `https://openweathermap.org/payload/api/media/file/${data.weather[0].icon}@2x.png`
+  const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
   myGraphic.setAttribute('SRC', iconsrc)
   myGraphic.setAttribute('alt', data.weather[0].description)
 //   currentTemp.innerHTML = `${data._____}&deg;F`;
