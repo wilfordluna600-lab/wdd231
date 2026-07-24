@@ -5,7 +5,7 @@ async function getMembersData() {
     const data = await response.json();
     
     const goldSilverMembers = data.members.filter(
-        (member) => member.membership === "gold" || member.membership === "silver"
+        (member) => member.membership === "Gold membership" || member.membership === "Silver membership"
     );
 
     const randomMembers = selectRandomMembers(goldSilverMembers, 3);
@@ -31,6 +31,7 @@ const displayMembers = (members) => {
         let address = document.createElement('p');
         let phone = document.createElement('p');
         let website = document.createElement('p');
+        let membershipLebel = document.createElement('p');
 
         businessName.textContent = `${member.name}`;
 
@@ -43,12 +44,14 @@ const displayMembers = (members) => {
         address.textContent = `${member.address}`;
         phone.textContent = `${member.phone}`;
         website.textContent = `${member.website}`;
+        membershipLebel.textContent = `${member.membership}`;
 
         card.appendChild(businessName);
         card.appendChild(logo);
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(website);
+        card.appendChild(membershipLebel);
 
         cards.appendChild(card);
     });
