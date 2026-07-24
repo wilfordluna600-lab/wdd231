@@ -7,7 +7,7 @@ const myKey = "2fdc2d4b07b9aaaa089c967e73c9bb77"
 const myLat = "49.7503"
 const myLong = "6.6384"
 
-const myURL = `https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=imperial`
+const myURL = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
 
 
 // const currentTemp = document.querySelector('#current-temp');
