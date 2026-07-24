@@ -4,8 +4,19 @@ async function getMembersData() {
     const response = await fetch("data/members.json");
     const data = await response.json();
     
+    const goldSilverMembers = data.members.filter(
+        (member) => member.membership === "gold" || member.membership === "silver"
+    );
+
+    const randomMembers = selectRandomMembers(goldSilverMembers, 3);
+
     // console.table(data.members);
-    displayMembers(data.members);
+    displayMembers(randomMembers);
+}
+
+function selectRandomMembers(members, number) {
+    const shuffled = [...members].sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, number);
 }
 
 getMembersData();
