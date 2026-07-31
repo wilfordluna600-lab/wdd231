@@ -37,8 +37,14 @@
     </nav>
     <main>
         <form action="thankyou.html" method="get">
-            <label for="fname">First Name:</label>
-            <input type="text" name="fname" id="fname">
+            <label for="firstName">First Name: </label>
+            <input type="text" name="firstName" id="firstName" autocomplete="given-name" required>
+            <label for="lastName">Last Name: </label>
+            <input type="text" name="lastName" id="lastName" autocomplete="family-name" required>
+            <!-- Here I have to write the input for the organization title -->
+
+            <label for="userEmail">Email:</label>
+            <input type="email" name="userEmail" id="userEmail" placeholder="example@domain.com" autocomplete="email" required>
         </form>
 
         <h1>Directory</h1>
