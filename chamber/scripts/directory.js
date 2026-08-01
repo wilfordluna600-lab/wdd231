@@ -92,3 +92,5 @@ function displayResults(data) {
 }
 
 apiFetch();
+
+document.getElementById("timestamp").value = Date.now();
