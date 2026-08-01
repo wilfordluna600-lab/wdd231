@@ -42,7 +42,8 @@
             <label for="lastName">Last Name: </label>
             <input type="text" name="lastName" id="lastName" autocomplete="family-name" required title="Enter your last name">
             <!-- Here I have to write the input for the organization title -->
-
+            <label for="organizationTitle">Organization Title: </label>
+            <input type="text" name="organizationTitle" id="organizationTitle" autocomplete="organization-title" title="Enter your position in the organization (at least 7 letters; letters, spaces, and hyphens only)" pattern="[A-Za-z\s-]{7.}">
             <label for="userEmail">Email:</label>
             <input type="email" name="userEmail" id="userEmail" placeholder="example@domain.com" autocomplete="email" required title="Enter a valid email address">
             <label for="phone">Phone Number: </label>
