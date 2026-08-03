@@ -185,7 +185,7 @@ form {
             border-left-color: green;
         }
 
-        input [type=submit] {
+        input[type=submit] {
             display: block;
             border: none;
             text-align: center;
