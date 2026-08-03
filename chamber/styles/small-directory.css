@@ -186,6 +186,7 @@ form {
         }
 
         input [type=submit] {
+            display: block;
             border: none;
             text-align: center;
             background-color: #3D405B;
