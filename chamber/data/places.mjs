@@ -7,20 +7,6 @@ export const places = [
       "photo_url": "https://www.google.com/search?tbm=isch&q=Huacachina+Ica+Peru+sandboarding"
     },
     {
-      "name": "Huacachina Sunset",
-      "address": "Huacachina, Ica 11000",
-      "cost": "Free",
-      "description": "Climb one of the surrounding dunes and watch the sunset over the desert and Huacachina oasis.",
-      "photo_url": "https://www.google.com/search?tbm=isch&q=Huacachina+sunset+Ica+Peru"
-    },
-    {
-      "name": "Tacama Winery",
-      "address": "Cam. Real 390, Ica 11004",
-      "cost": "S/ 45 (about $12 USD)",
-      "description": "Visit one of Ica's historic vineyards, learn about wine and pisco production, explore the traditional hacienda and participate in tastings.",
-      "photo_url": "https://www.google.com/search?tbm=isch&q=Tacama+winery+Ica+Peru"
-    },
-    {
       "name": "Cachiche",
       "address": "Ica 11004, Peru",
       "cost": "Free",
