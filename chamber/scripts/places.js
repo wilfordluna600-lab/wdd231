@@ -22,8 +22,8 @@ function displayItems(places) {
         const thedesc = document.createElement('p');
         thedesc.innerText = x.description;
         thecard.appendChild(thedesc);
-        
-
+        const thebutton = document.createElement('button');
+        thebutton.innerText = 'Learn More';
         showHere.appendChild(thecard);
     })
 }
