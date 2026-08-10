@@ -22,6 +22,7 @@ function displayItems(places) {
         const thedesc = document.createElement('p');
         thedesc.innerText = x.description;
         thecard.appendChild(thedesc);
+        
 
         showHere.appendChild(thecard);
     })
