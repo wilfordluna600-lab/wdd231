@@ -10,6 +10,8 @@ function displayItems(places) {
         thephoto.src = `images/${x.photo_url}`;
         thephoto.alt = x.name;
         thephoto.loading = 'lazy';
+        thephoto.width = 300;
+        thephoto.height = 200;
         thecard.appendChild(thephoto);
         const thetitle = document.createElement('h2');
         thetitle.innerText = x.name;
