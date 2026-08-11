@@ -41,8 +41,8 @@ if (!lastVisit) {
     visitMessage.textContent = "Welcome! Let us know if you have any questions.";
 }
 else {
-    const difference = currentVisit - Number(lastVisit);
-    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+    const timeBetweenVisits = currentVisit - Number(lastVisit);
+    const days = Math.floor(timeBetweenVisits / (1000 * 60 * 60 * 24));
 
     if (days < 1) {
         visitMessage.textContent = "Back so soon! Awesome!";
