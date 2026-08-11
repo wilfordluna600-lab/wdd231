@@ -31,3 +31,18 @@ function displayItems(places) {
 }
 
 displayItems(places);
+
+const visitMessage = document.querySelector("#visit-message");
+
+const lastVisit = localStorage.getItem("lastVisit");
+const currentVisit = Date.now();
+
+if (!lastVisit) {
+    visitMessage.textContent = "Welcome! Let us know if you have any questions.";
+}
+else {
+    const difference = currentVisit - Number(lastVisit);
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+
+    
+}
