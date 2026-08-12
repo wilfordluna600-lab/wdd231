@@ -40,16 +40,6 @@
     "photo_url": "ica-plaza-run.webp"
   },
   {
-    "name": "Ica Urban Training Loop",
-    "distance": "8 km",
-    "difficulty": "Moderate",
-    "estimated_time": "45–55 min",
-    "description": "A longer urban training route designed for runners who want to build endurance while staying within the city.",
-    "terrain": "Mostly paved streets",
-    "recommended_for": "Intermediate runners",
-    "photo_url": "ica-urban-run.webp"
-  },
-  {
     "name": "San Joaquin Training Route",
     "distance": "6 km",
     "difficulty": "Moderate",
@@ -68,16 +58,6 @@
     "terrain": "Paved roads and compact paths",
     "recommended_for": "Intermediate runners",
     "photo_url": "cachiche-run.webp"
-  },
-  {
-    "name": "Ica to Huacachina Training Run",
-    "distance": "10 km",
-    "difficulty": "Moderate",
-    "estimated_time": "55–70 min",
-    "description": "A longer endurance route connecting the city area with Huacachina and offering a transition from urban streets to desert scenery.",
-    "terrain": "Paved roads and sandy sections",
-    "recommended_for": "Intermediate runners",
-    "photo_url": "ica-huacachina-run.webp"
   },
   {
     "name": "Huacachina Sunset Run",
