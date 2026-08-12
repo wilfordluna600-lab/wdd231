@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Ica Chamber of Commerce</title>
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:description" content="It's an organization of businesses that work together to strengthen the business interests of the group.">
+    <meta property="og:image" content="https://wilfordluna600-lab.github.io/wdd231/chamber/images/logo-home.svg">
+    <meta property="og:url" content="https://your-github-username.github.io/wdd231/chamber/directory.html">
+    <meta name="description" content="It's an organization of businesses that work together to strengthen the business interests of the group.">
+    <meta name="author" content="Wilford Luna">
+    <link rel="icon" href="images/logo-home.svg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small-directory.css">
+    <link rel="stylesheet" href="styles/larger-directory.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo-home.svg" alt="Site Logo" width="512" height="512" loading="lazy">
+        <span>Ica Chamber of Commerce</span>
+        <button aria-label="open and close list" id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Directory</a></li>
+            <li class="current"><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Join</h1>
+        <form action="thankyou.html" method="get" class="styleForm">
+            <label for="firstName">First Name: </label>
+            <input type="text" name="firstName" id="firstName" autocomplete="given-name" required title="Enter your first name">
+            <label for="lastName">Last Name: </label>
+            <input type="text" name="lastName" id="lastName" autocomplete="family-name" required title="Enter your last name">
+            <!-- Here I have to write the input for the organization title -->
+            <label for="organizationTitle">Organization Title: </label>
+            <input type="text" name="organizationTitle" id="organizationTitle" autocomplete="organization-title" title="Enter your position in the organization (at least 7 letters; letters, spaces, and hyphens only)" pattern="[A-Za-z\s-]{7,}">
+            <label for="userEmail">Email:</label>
+            <input type="email" name="userEmail" id="userEmail" placeholder="example@domain.com" autocomplete="email" required title="Enter a valid email address">
+            <label for="phone">Phone Number: </label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" required title="Enter your mobile phone number">
+            <label for="organizationName">Business/Organization's Name: </label>
+            <input type="text" name="organizationName" id="organizationName" autocomplete="organization" required title="Enter the name of your business or organization">
+            <label for="membershipLevel">Membership Level: </label>
+            <select name="membershipLevel" id="membershipLevel" required>
+                <option value="">Select one</option>
+                <option value="np">Non-profit Membership</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Membership</option>
+                <option value="gold">Gold Membership</option>
+            </select>
+            <label for="description">Business/Organization's Description: </label>
+            <textarea name="description" id="description" title="Describe your organization"></textarea>
+            <input type="hidden" id="timestamp" name="timestamp">
+            <input type="submit" value="Join">
+        </form>
+
+
+        <!-- <h1>Directory</h1>
+        <div id="cards"></div> -->
+    </main>
+    <footer>
+        <p><b>Ica Chamber of Commerce</b></p>
+        <p>Av. Los Emprendedores 245</p>
+        <p>Housing Development San Joaquin, Ica 11001, Peru</p>
+        <p>contact@icachamber.pe</p>
+        <p>+51 56 612 345</p>
+        <div class="social">
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.svg" alt="youtube" width="16" height="16" loading="lazy"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter.svg" alt="twitter" width="16" height="16" loading="lazy"></a>
+            <a href="https://www.linkedin.com/login/es/" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16" loading="lazy"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16" loading="lazy"></a>
+        </div>
+        <p>WDD231 Class Project</p>
+        <p>Wilford Luna</p>
+        <p>® <span id="currentYear"></span> Ica Chamber of Commerce</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
