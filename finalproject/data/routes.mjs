@@ -1,4 +1,4 @@
-[
+export const routes = [
   {
     "name": "Huacachina Oasis Loop",
     "distance": "5 km",
