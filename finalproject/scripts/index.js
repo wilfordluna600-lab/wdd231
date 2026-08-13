@@ -1,4 +1,4 @@
-import { routes } from '../data/places.mjs';
+import { routes } from '../data/routes.mjs';
 console.log(routes);
 
 
@@ -40,4 +40,4 @@ function displayItems(routes) {
     })
 }
 
-displayItems(places);
+displayItems(routes);
