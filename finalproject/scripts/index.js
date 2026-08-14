@@ -31,6 +31,7 @@ function displayItems(routes) {
         thecard.appendChild(thedistance);
         const thedesc = document.createElement('p');
         thedesc.innerText = x.description;
+        thecard.appendChild(thedesc);
         showHere.appendChild(thecard);
     })
 }
