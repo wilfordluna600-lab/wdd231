@@ -27,9 +27,8 @@
     .navigation a {
         border: none;
     }
-}
-
-#allplaces {
+    #allplaces {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    }
 }
