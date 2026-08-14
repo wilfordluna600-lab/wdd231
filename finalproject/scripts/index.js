@@ -2,15 +2,6 @@ import { routes } from '../data/routes.mjs';
 console.log(routes);
 
 
-const navButton = document.querySelector('#ham-btn');
-const navBar = document.querySelector('#nav-bar');
-
-navButton.addEventListener('click', () => {
-    navButton.classList.toggle('show');
-    navBar.classList.toggle('show');
-});
-
-
 const showHere = document.querySelector("#allroutes");
 
 function displayItems(routes) {
@@ -37,9 +28,3 @@ function displayItems(routes) {
 }
 
 displayItems(routes);
-
-document.getElementById("lastModified").innerHTML = document.lastModified;
-
-const year = document.querySelector("#currentYear");
-const today = new Date();
-year.innerHTML = today.getFullYear();
