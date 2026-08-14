@@ -26,16 +26,11 @@ function displayItems(routes) {
         const thetitle = document.createElement('h2');
         thetitle.innerText = x.name;
         thecard.appendChild(thetitle);
-        const theaddress = document.createElement('address');
-        theaddress.innerText = x.address;
-        thecard.appendChild(theaddress);
+        const thedistance = document.createElement('p');
+        thedistance.innerText = x.distance;
+        thecard.appendChild(thedistance);
         const thedesc = document.createElement('p');
         thedesc.innerText = x.description;
-        thecard.appendChild(thedesc);
-        const thebutton = document.createElement('button');
-        thebutton.innerText = 'Learn More';
-        thecard.appendChild(thebutton);
-
         showHere.appendChild(thecard);
     })
 }
