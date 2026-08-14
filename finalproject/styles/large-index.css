@@ -11,6 +11,14 @@
         grid-template-columns: 24px auto;
     }
 
+    header img {
+    display: block;
+    width: 25px;
+    height: 25px;
+    height: auto;
+    padding-bottom: 5px;
+}
+
     .hamburger {
         display: none;
     }
