@@ -6,7 +6,6 @@
 }
 
 
-
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
@@ -18,7 +17,8 @@ header {
 
 header img {
     display: block;
-    width: 100%;
+    width: 25px;
+    height: 25px;
     height: auto;
     padding-bottom: 5px;
 }
