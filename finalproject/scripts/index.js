@@ -1,10 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  const currentYear = new Date().getFullYear();
-  document.getElementById("currentyear").textContent = currentYear;
-  document.getElementById("lastModified").innerHTML = document.lastModified;
-
-
   const firstPage = [
     {
     subtitle: "Club Members",
