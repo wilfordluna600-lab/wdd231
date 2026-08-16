@@ -14,14 +14,25 @@ function displayItems(routes) {
         thephoto.width = 300;
         thephoto.height = 200;
         thecard.appendChild(thephoto);
+
         const thetitle = document.createElement('h2');
         thetitle.innerText = x.name;
         thecard.appendChild(thetitle);
+
         const thedistance = document.createElement('p');
-        thedistance.innerText = x.distance;
+        thedistance.innerText = `Distance: ${x.distance}`;
         thecard.appendChild(thedistance);
+
+        const thedifficulty = document.createElement('p');
+        thedifficulty.innerText = `Difficulty: ${x.difficulty}`;
+        thecard.appendChild(thedifficulty);
+
+        const thetime = document.createElement('p');
+        thetime.innerText = `Estimated time: ${x.estimated_time}`;
+        thecard.appendChild(thetime);
+
         const thedesc = document.createElement('p');
-        thedesc.innerText = x.description;
+        thedesc.innerText = `Description: ${x.description}`;
         thecard.appendChild(thedesc);
         showHere.appendChild(thecard);
     })
