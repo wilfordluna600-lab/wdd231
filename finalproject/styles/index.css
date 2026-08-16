@@ -91,6 +91,17 @@ header span {
     color: white;
 }
 
+h1 {
+    background-color: #F4EBD0;
+    padding: 10px;
+    color: navy;
+}
+
+main div {
+    padding: 10px;
+    color: navy;
+}
+
 form {
     margin: 1rem 2%;
 }
@@ -146,6 +157,7 @@ form input[type=submit] {
 
 footer {
     background-color: #F4EBD0;
+    color: navy;
     padding: 1rem 10px;
     text-align: center;
     min-height: 450px;
