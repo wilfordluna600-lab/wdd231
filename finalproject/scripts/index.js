@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   ];
 
-
   function createContentCard(showContent) {
     document.querySelector(".first-content").innerHTML = "";
     showContent.forEach(contents => {
